@@ -6,8 +6,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta
     name="description"
-    content="Safe Harbor Cyber Consulting helps small businesses in Brigantine and South Jersey get practical, plain-English cybersecurity guidance without jargon, fear, or complexity."
+    content="Practical, plain-English cybersecurity guidance for small businesses in Brigantine & South Jersey. No jargon. No fear. No upsell."
   />
+
+  <!-- Open Graph / Social -->
+  <meta property="og:title" content="Safe Harbor Cyber Consulting" />
+  <meta property="og:description" content="Practical cybersecurity for small businesses — clear guidance, no jargon, no fear." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://safe-harbor-cyber.com" />
+
+  <!-- Basic trust signals -->
+  <meta name="theme-color" content="#0b1633" />
 
   <!-- Google Font -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -19,330 +28,363 @@
 
   <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
-  <!-- TOP BAR -->
+  <!-- HEADER -->
   <header class="site-header">
     <div class="container header-inner">
-      <div class="logo">
+      <a class="logo" href="#top" aria-label="Safe Harbor Cyber Consulting">
         <div class="logo-mark">SH</div>
         <div class="logo-text">
           <span class="logo-title">Safe Harbor</span>
           <span class="logo-subtitle">Cyber Consulting</span>
         </div>
-      </div>
-      <nav class="main-nav">
+      </a>
+
+      <nav class="main-nav" aria-label="Primary navigation">
         <a href="#why">Why Safe Harbor</a>
-        <a href="#about">About</a>
         <a href="#services">Services</a>
         <a href="#who">Who I Help</a>
-        <a href="#contact" class="nav-cta">Free Consultation</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="nav-cta">Schedule Call</a>
       </nav>
     </div>
   </header>
 
   <!-- HERO -->
-  <section class="hero">
-    <div class="container hero-inner">
-      <div class="hero-text">
-        <h1>Safe Harbor Cyber Consulting</h1>
-        <p class="hero-subtitle">Practical cybersecurity for small businesses.</p>
-        <p class="hero-body">
-          Your business shouldn’t have to guess about security.<br />
-          I help accountants, real estate teams, and professional service providers stay secure with
-          clear, simple, effective cybersecurity guidance — without the jargon, fear, or complexity.
-        </p>
-        <div class="hero-actions">
-          <a href="#contact" class="btn btn-primary">Schedule Your Free Consultation</a>
-          <span class="trust-tag">Serving Brigantine & South Jersey</span>
-        </div>
-      </div>
-      <div class="hero-card">
-        <div class="hero-badge">No Jargon • No Fear • No Upsell</div>
-        <h2>Know where you stand.</h2>
-        <p>
-          Get an honest, plain-English review of your cybersecurity posture and a prioritized plan
-          to secure your business — without anyone touching your systems.
-        </p>
-        <ul class="hero-list">
-          <li>Color-coded security grades</li>
-          <li>Clear, prioritized action plans</li>
-          <li>Guided implementation support</li>
-        </ul>
-        <a href="#services" class="btn btn-outline">View Services & Packages</a>
-      </div>
-    </div>
-  </section>
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Safe Harbor Cyber Consulting</h1>
+          <p class="hero-subtitle">Practical cybersecurity for small businesses.</p>
 
-  <!-- WHY SAFE HARBOR -->
-  <section id="why" class="section section-alt">
-    <div class="container section-inner">
-      <div class="section-header">
-        <h2>Why Safe Harbor?</h2>
-        <p>Small businesses deserve real cybersecurity — not confusion.</p>
-      </div>
-      <div class="grid-2">
-        <div>
-          <p class="lead">
-            Most small businesses don’t need a full-time IT department. You just need someone who
-            understands modern threats and can explain what matters — in plain English — without
-            turning it into an expensive, complicated project.
+          <p class="hero-body">
+            Your business shouldn’t have to guess about security.<br />
+            I help accountants, real estate teams, and professional service providers reduce risk with
+            clear, simple guidance — without the jargon, fear, or complexity.
           </p>
-          <p>
-            Safe Harbor Cyber Consulting offers hands-on <strong>guidance</strong>, not hands-on
-            configuration, giving you the clarity and confidence to secure your business properly
-            and safely.
-          </p>
+
+          <div class="hero-actions">
+            <a
+              class="btn btn-primary"
+              href="https://calendly.com/william-safe-harbor-cyber/intro"
+              target="_blank"
+              rel="noopener"
+            >
+              Schedule a Free 15-Min Call
+            </a>
+            <span class="trust-tag">Serving Brigantine & South Jersey</span>
+          </div>
+
+          <div class="trust-wedge" role="note" aria-label="Engagement boundaries">
+            <div class="trust-wedge-title">What this is — and isn’t</div>
+            <ul class="trust-wedge-list">
+              <li>No software installs</li>
+              <li>No account takeovers</li>
+              <li>No “hands-on IT” work</li>
+              <li>Clear, prioritized written recommendations</li>
+            </ul>
+          </div>
         </div>
-        <div class="card card-checklist">
-          <h3>You get:</h3>
-          <ul>
-            <li>Clear explanations</li>
-            <li>Practical, actionable advice</li>
-            <li>No technical jargon</li>
-            <li>No unnecessary upsells</li>
-            <li>No fear-based selling</li>
-            <li>No IT support or device handling — just true cybersecurity expertise</li>
+
+        <aside class="hero-card" aria-label="Quick summary">
+          <div class="hero-badge">No Jargon • No Fear • No Upsell</div>
+          <h2>Know where you stand.</h2>
+          <p>
+            Get an honest, plain-English review of your cybersecurity posture and a prioritized plan to
+            tighten things up — while you stay in control.
+          </p>
+          <ul class="hero-list">
+            <li>Simple security grading</li>
+            <li>Prioritized action plan</li>
+            <li>Guided follow-ups (optional)</li>
           </ul>
+          <a href="#services" class="btn btn-outline btn-full">View Services</a>
+        </aside>
+      </div>
+    </section>
+
+    <!-- WHY SAFE HARBOR -->
+    <section id="why" class="section section-alt">
+      <div class="container section-inner">
+        <div class="section-header">
+          <h2>Why Safe Harbor?</h2>
+          <p>Small businesses deserve real cybersecurity — not confusion.</p>
         </div>
-      </div>
-    </div>
-  </section>
 
-  <!-- ABOUT -->
-  <section id="about" class="section">
-    <div class="container section-inner">
-      <div class="section-header">
-        <h2>About the Consultant</h2>
-        <p>Enterprise-grade experience, built for local small businesses.</p>
-      </div>
-      <div class="about-grid">
-        <div class="about-text">
-          <p class="lead">
-            I’m <strong>Bill Krodthoff</strong> — a former Senior Red Team Engineer at
-            <strong>Target Corporation</strong> (a Fortune 50 company) with a Bachelor’s in
-            Computing Security from RIT and professional GIAC certification.
-          </p>
-          <p>
-            I’ve spent years analyzing real-world cyber threats, reviewing security posture, and
-            helping businesses understand their risks. Now I use that professional experience to
-            help small businesses get protected — simply, affordably, and without the confusion.
-          </p>
-          <p>
-            I’m local to <strong>Brigantine</strong>, and I work directly with small teams who value
-            trust, clarity, and personal service.
-          </p>
-        </div>
-        <div class="card about-card">
-          <h3>What you can expect</h3>
-          <ul>
-            <li>Direct access to an experienced cybersecurity professional</li>
-            <li>Plain-English explanations and realistic recommendations</li>
-            <li>Clear boundaries: I guide, you stay in control of your systems</li>
-            <li>Respect for your time, your budget, and your team</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
+        <div class="grid-2">
+          <div>
+            <p class="lead">
+              Most small businesses don’t need a full-time IT department. You just need someone who
+              understands modern threats and can explain what matters — in plain English.
+            </p>
+            <p>
+              Safe Harbor provides hands-on <strong>guidance</strong>, not hands-on configuration.
+              You get clarity, priorities, and a realistic plan you can execute without disruption.
+            </p>
 
-  <!-- SERVICES & PACKAGES -->
-  <section id="services" class="section section-alt">
-    <div class="container section-inner">
-      <div class="section-header">
-        <h2>Services & Packages</h2>
-        <p>Choose the level of review that fits your business today — and grow from there.</p>
-      </div>
-
-      <div class="services-grid">
-        <!-- Security Quick Check -->
-        <article class="card service-card">
-          <div class="service-tag">Entry-Level</div>
-          <h3>Security Quick Check</h3>
-          <p class="service-meta">
-            <strong>Best for:</strong> Small offices, solo accountants, real estate agents<br />
-            <strong>Time:</strong> 60–90 minutes<br />
-            <strong>Price:</strong> $199–$349
-          </p>
-          <p>
-            A fast but thorough review of your basic security posture. Perfect for peace of mind
-            or as a “first step” into cybersecurity.
-          </p>
-          <ul class="service-list">
-            <li>Password practices review</li>
-            <li>MFA (two-factor) check</li>
-            <li>Device security review</li>
-            <li>Router/Wi-Fi safety check</li>
-            <li>Cloud account &amp; email security check</li>
-            <li>Operating system + software update status</li>
-            <li>Top 5 priority fixes</li>
-            <li>Color-coded Security Grade (A–F)</li>
-            <li>1–2 page summary report</li>
-          </ul>
-          <a href="#contact" class="btn btn-primary btn-full">Book a Quick Check</a>
-        </article>
-
-        <!-- Small Business Security Tune-Up -->
-        <article class="card service-card">
-          <div class="service-tag service-tag-gold">Most Popular</div>
-          <h3>Small Business Security Tune-Up</h3>
-          <p class="service-meta">
-            <strong>Best for:</strong> Accounting firms, multi-person offices, high-risk data
-            handlers<br />
-            <strong>Time:</strong> Half-day<br />
-            <strong>Price:</strong> $799–$1,500
-          </p>
-          <p>
-            A deeper, structured evaluation of your entire security setup — without touching your
-            systems. This gives you a complete understanding of your risks and a clear plan to fix
-            them.
-          </p>
-          <ul class="service-list">
-            <li>Full access &amp; account review</li>
-            <li>Device &amp; endpoint security analysis</li>
-            <li>Data handling &amp; workflow review</li>
-            <li>Cloud storage &amp; sharing assessment</li>
-            <li>Wi-Fi / network safety evaluation</li>
-            <li>Phishing &amp; scam exposure check</li>
-            <li>5–7 page Security Posture Report</li>
-            <li>Color-coded Security Score breakdown</li>
-            <li>30-day prioritized Action Plan</li>
-            <li>Follow-up consultation to review everything</li>
-          </ul>
-          <a href="#contact" class="btn btn-primary btn-full">Schedule a Tune-Up</a>
-        </article>
-
-        <!-- Guided Implementation Session -->
-        <article class="card service-card">
-          <div class="service-tag">Follow-Up</div>
-          <h3>Guided Implementation Session</h3>
-          <p class="service-meta">
-            <strong>Time:</strong> 60–90 minutes<br />
-            <strong>Price:</strong> $149–$299
-          </p>
-          <p>
-            Once you receive your report, I can walk you through how to implement the recommended
-            changes — safely, clearly, and at your pace.
-          </p>
-          <p>
-            You stay fully in control of your systems; I provide expert guidance step-by-step.
-          </p>
-        </article>
-
-        <!-- Quarterly Cyber Health Retainer -->
-        <article class="card service-card">
-          <div class="service-tag">Ongoing</div>
-          <h3>Quarterly Cyber Health Retainer</h3>
-          <p class="service-meta">
-            <strong>Price:</strong> $99–$399/month (based on team size)
-          </p>
-          <p>Ongoing support to keep your business secure year-round.</p>
-          <ul class="service-list">
-            <li>Quarterly mini check</li>
-            <li>Annual Security Tune-Up</li>
-            <li>Unlimited security questions</li>
-            <li>Vendor/software review</li>
-            <li>Scam alerts &amp; threat updates</li>
-            <li>Secure onboarding guidance for new staff</li>
-          </ul>
-          <a href="#contact" class="btn btn-outline btn-full">Request Details</a>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- WHO I HELP -->
-  <section id="who" class="section">
-    <div class="container section-inner">
-      <div class="section-header">
-        <h2>Who I Help</h2>
-        <p>Safe Harbor supports businesses that handle sensitive client information.</p>
-      </div>
-
-      <div class="who-grid">
-        <div class="card">
-          <h3>Core Clients</h3>
-          <ul class="pill-list">
-            <li>Accounting firms</li>
-            <li>Real estate teams</li>
-            <li>Independent professionals</li>
-            <li>Local service businesses</li>
-            <li>Small medical and legal offices (non-HIPAA configuration)</li>
-            <li>Any Brigantine or South Jersey business that needs peace of mind</li>
-          </ul>
-        </div>
-        <div class="card">
-          <h3>Do you handle:</h3>
-          <ul class="check-list">
-            <li>Client data</li>
-            <li>Financial records</li>
-            <li>Sensitive personal information</li>
-          </ul>
-          <p class="lead">
-            If the answer is yes, I can help you understand your risk and tighten your defenses
-            without derailing your day-to-day operations.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- READY TO GET STARTED / CONTACT -->
-  <section id="contact" class="section section-cta">
-    <div class="container section-inner">
-      <div class="cta-card">
-        <div class="cta-text">
-          <h2>Your business deserves a safe harbor.</h2>
-          <p>
-            Cybersecurity doesn’t have to be confusing or overwhelming. Let’s start with a quick,
-            friendly conversation about your needs.
-          </p>
-          <a href="mailto:William@Krodthoff.com" class="btn btn-primary">
-            Schedule Free Consultation
-          </a>
-        </div>
-        <div class="cta-contact">
-          <h3>Contact Me Directly</h3>
-          <p>
-            <strong>Email:</strong>
-            <a href="mailto:William@Krodthoff.com">William@Krodthoff.com</a>
-          </p>
-          <p>
-            <strong>Phone:</strong>
-            <a href="tel:+12156875695">215-687-5695</a>
-          </p>
-
-          <form class="contact-form" action="mailto:William@Krodthoff.com" method="post">
-            <div class="form-row">
-              <label for="name">Name</label>
-              <input id="name" name="name" type="text" required />
+            <div class="micro-cta">
+              <a class="btn btn-primary" href="https://calendly.com/william-safe-harbor-cyber/intro" target="_blank" rel="noopener">
+                Schedule a Free 15-Min Call
+              </a>
+              <div class="micro-cta-note">Typically available weekdays • Remote friendly</div>
             </div>
-            <div class="form-row">
-              <label for="email">Email</label>
-              <input id="email" name="email" type="email" required />
-            </div>
-            <div class="form-row">
-              <label for="message">How can I help?</label>
-              <textarea id="message" name="message" rows="3" required></textarea>
-            </div>
-            <button type="submit" class="btn btn-outline btn-full">
-              Send Secure Inquiry
-            </button>
-          </form>
+          </div>
+
+          <div class="card card-checklist">
+            <h3>You get:</h3>
+            <ul>
+              <li>Clear explanations</li>
+              <li>Practical, actionable advice</li>
+              <li>No technical jargon</li>
+              <li>No unnecessary upsells</li>
+              <li>Boundaries: guidance only — you stay in control</li>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="section">
+      <div class="container section-inner">
+        <div class="section-header">
+          <h2>Services & Packages</h2>
+          <p>Start small, get clarity, then decide what to improve next.</p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Quick Check -->
+          <article class="card service-card">
+            <div class="service-tag">Best First Step</div>
+            <h3>Security Quick Check</h3>
+            <p class="service-meta">
+              <strong>Time:</strong> 60–90 minutes<br />
+              <strong>Price:</strong> Starting at <strong>$349</strong>
+            </p>
+            <p>
+              A fast but thorough review of your baseline security. Perfect for peace of mind and a
+              clear “what to fix first” plan.
+            </p>
+            <ul class="service-list">
+              <li>Password & MFA review (policy + verification)</li>
+              <li>Device security checklist (laptops/phones)</li>
+              <li>Email & cloud account safety review</li>
+              <li>Wi-Fi/router configuration walkthrough</li>
+              <li>Update/patch posture check</li>
+              <li>Top 5 prioritized fixes + simple grade</li>
+              <li>1–2 page summary report</li>
+            </ul>
+            <a class="btn btn-primary btn-full" href="https://calendly.com/william-safe-harbor-cyber/intro" target="_blank" rel="noopener">
+              Book a Quick Check
+            </a>
+          </article>
+
+          <!-- Tune-Up -->
+          <article class="card service-card">
+            <div class="service-tag service-tag-gold">Most Popular</div>
+            <h3>Small Business Security Tune-Up</h3>
+            <p class="service-meta">
+              <strong>Time:</strong> Half-day (remote)<br />
+              <strong>Price:</strong> Starting at <strong>$999</strong>
+            </p>
+            <p>
+              A deeper review across accounts, devices, workflows, and risk exposure — plus a
+              prioritized 30-day plan you can actually execute.
+            </p>
+            <ul class="service-list">
+              <li>Account & access review (no credential handoff required)</li>
+              <li>Device/endpoint posture review (guidance)</li>
+              <li>Data handling & sharing workflow review</li>
+              <li>Backup & ransomware readiness check</li>
+              <li>Phishing/scam exposure review</li>
+              <li>Security Posture Report (5–7 pages)</li>
+              <li>30-day prioritized action plan</li>
+              <li>Follow-up review call</li>
+            </ul>
+            <a class="btn btn-primary btn-full" href="https://calendly.com/william-safe-harbor-cyber/intro" target="_blank" rel="noopener">
+              Schedule a Tune-Up
+            </a>
+          </article>
+
+          <!-- Guided Session -->
+          <article class="card service-card">
+            <div class="service-tag">Follow-Up</div>
+            <h3>Guided Implementation Session</h3>
+            <p class="service-meta">
+              <strong>Time:</strong> 60–90 minutes<br />
+              <strong>Price:</strong> <strong>$199/hr</strong>
+            </p>
+            <p>
+              Prefer help implementing fixes? We’ll screen-share and walk through changes safely.
+              You remain in control at all times.
+            </p>
+            <ul class="service-list">
+              <li>Step-by-step guidance</li>
+              <li>Written checklist of completed changes</li>
+              <li>Focused Q&A for your specific tools/vendors</li>
+            </ul>
+            <a class="btn btn-outline btn-full" href="https://calendly.com/william-safe-harbor-cyber/intro" target="_blank" rel="noopener">
+              Book a Guided Session
+            </a>
+          </article>
+
+          <!-- Retainer -->
+          <article class="card service-card">
+            <div class="service-tag">Ongoing</div>
+            <h3>Quarterly Cyber Health Retainer</h3>
+            <p class="service-meta">
+              <strong>Price:</strong> Starting at <strong>$199/mo</strong>
+            </p>
+            <p>
+              Lightweight ongoing support so security doesn’t slip over time.
+            </p>
+            <ul class="service-list">
+              <li>Quarterly mini-check</li>
+              <li>Scam/threat alerts (as needed)</li>
+              <li>Vendor/software review help</li>
+              <li>New staff onboarding security guidance</li>
+            </ul>
+            <a class="btn btn-outline btn-full" href="https://calendly.com/william-safe-harbor-cyber/intro" target="_blank" rel="noopener">
+              Request Details
+            </a>
+          </article>
+        </div>
+
+        <div class="section-footnote">
+          Pricing may vary by team size and complexity — we confirm scope on the free 15-minute call.
+        </div>
+      </div>
+    </section>
+
+    <!-- WHO I HELP -->
+    <section id="who" class="section section-alt">
+      <div class="container section-inner">
+        <div class="section-header">
+          <h2>Who I Help</h2>
+          <p>Businesses that handle sensitive client information and want peace of mind.</p>
+        </div>
+
+        <div class="who-grid">
+          <div class="card">
+            <h3>Great fit for:</h3>
+            <ul class="pill-list">
+              <li>Accounting firms</li>
+              <li>Tax preparers</li>
+              <li>Real estate offices</li>
+              <li>Insurance & financial services</li>
+              <li>Professional services</li>
+              <li>Small teams with shared inboxes & files</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>If you handle:</h3>
+            <ul class="check-list">
+              <li>Client data</li>
+              <li>Financial records</li>
+              <li>Sensitive personal information</li>
+            </ul>
+            <p class="lead">
+              You don’t need perfection — you need clarity and a plan.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container section-inner">
+        <div class="section-header">
+          <h2>About</h2>
+          <p>Enterprise experience, translated for small businesses.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text">
+            <p class="lead">
+              I’m <strong>Bill Krodthoff</strong>. I’ve spent years analyzing real-world threats and helping teams
+              understand security posture and risk — now I bring that same clarity to local small businesses.
+            </p>
+            <p>
+              If you want honest answers, simple priorities, and a plan you can execute without disruption, we’ll work well together.
+            </p>
+          </div>
+
+          <div class="card about-card">
+            <h3>What to expect</h3>
+            <ul>
+              <li>Plain-English explanations and realistic recommendations</li>
+              <li>Clear boundaries: guidance only — you stay in control</li>
+              <li>Respect for your time, budget, and team</li>
+              <li>Professional documentation you can keep</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT / CTA -->
+    <section id="contact" class="section section-cta">
+      <div class="container section-inner">
+        <div class="cta-card">
+          <div class="cta-text">
+            <h2>Start with a quick call.</h2>
+            <p>
+              We’ll spend 15 minutes getting clear on what you have, what matters most, and which service fits.
+              No pressure — just clarity.
+            </p>
+
+            <div class="cta-actions">
+              <a class="btn btn-primary" href="https://calendly.com/william-safe-harbor-cyber/intro" target="_blank" rel="noopener">
+                Schedule a Free 15-Min Call
+              </a>
+              <a class="btn btn-outline" href="mailto:william@safe-harbor-cyber.com">
+                Email Me
+              </a>
+            </div>
+
+            <div class="cta-smallprint">
+              Guidance only — no direct system administration, no guaranteed outcomes.
+            </div>
+          </div>
+
+          <div class="cta-contact">
+            <h3>Business Email</h3>
+            <p class="contact-line">
+              <strong>william@safe-harbor-cyber.com</strong>
+            </p>
+
+            <div class="divider"></div>
+
+            <h3>What happens next</h3>
+            <ol class="step-list">
+              <li>Schedule a 15-minute call</li>
+              <li>We confirm scope + fit</li>
+              <li>You get a clear plan (and optional guided follow-ups)</li>
+            </ol>
+
+            <div class="mini-card">
+              <div class="mini-card-title">Fast response</div>
+              <div class="mini-card-body">Most inquiries answered within 1 business day.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 
   <!-- FOOTER -->
   <footer class="site-footer">
     <div class="container footer-inner">
       <p>© <span id="year"></span> Safe Harbor Cyber Consulting. All rights reserved.</p>
-      <p class="footer-note">Cybersecurity guidance only — no direct system administration.</p>
+      <p class="footer-note">Advisory-only cybersecurity guidance. No IT support. No system administration.</p>
     </div>
   </footer>
 
   <script>
-    // Simple year update
     document.getElementById('year').textContent = new Date().getFullYear();
   </script>
 </body>
